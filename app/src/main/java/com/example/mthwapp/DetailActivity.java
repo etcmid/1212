@@ -44,7 +44,6 @@ public class DetailActivity extends AppCompatActivity {
         weatherDayItems.add(new WeatherDayItem("Monday", "31°C", weatherItem.getImageResource()));
         weatherDayItems.add(new WeatherDayItem("Tuesday", "31°C", weatherItem.getImageResource()));
 
-//        final ListView list = (ListView)findViewById(R.id.detail_listview);
 
         recyclerView = findViewById(R.id.detail_listview);
         recyclerView.setHasFixedSize(true);
